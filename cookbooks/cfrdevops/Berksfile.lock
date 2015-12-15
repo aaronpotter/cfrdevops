@@ -1,0 +1,9 @@
+DEPENDENCIES
+  cfrdevopstest
+    path: .
+    metadata: true
+  yum
+
+GRAPH
+  cfrdevopstest (0.1.0)
+  yum (3.8.2)

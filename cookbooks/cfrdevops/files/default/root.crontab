@@ -1,0 +1,3 @@
+PATH=/sbin:/bin
+*/2 * * * * service memcached restart && service memcached2 restart && service memcached3 restart >/dev/null 2&>1 
+
